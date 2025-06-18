@@ -1,0 +1,11 @@
+streamlit
+faiss-cpu
+torch
+pyannote.audio
+openai-whisper
+pydub
+ffmpeg-python
+sentence-transformers
+transformers
+scikit-learn
+pickle5

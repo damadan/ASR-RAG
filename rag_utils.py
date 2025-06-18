@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.preprocessing import normalize
 from sentence_transformers import SentenceTransformer
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from cross_encoder import CrossEncoder
+from sentence_transformers import CrossEncoder
 
 class RAGDatabase:
     def __init__(self, faiss_path='rag_index.faiss', meta_path='rag_meta.pkl'):
